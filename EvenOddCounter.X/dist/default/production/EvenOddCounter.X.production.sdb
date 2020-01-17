@@ -1,0 +1,103 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F628A ]
+[d frameptr 6 ]
+"62 D:\Microchip\xc8\v1.45\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Microchip\xc8\v1.45\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 D:\Microchip\xc8\v1.45\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"6 D:\Microchip\xc8\v1.45\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"46 E:\Workspace\Daflan\EvenOddCounter\EvenOddCounter.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"91
+[v _nextOdd nextOdd `(v  1 e 1 0 ]
+"100
+[v _nextEven nextEven `(v  1 e 1 0 ]
+"109
+[v _nextTriplet nextTriplet `(v  1 e 1 0 ]
+"114
+[v _printNumber printNumber `(v  1 e 1 0 ]
+"164 D:\Microchip\xc8\v1.45\include\pic16f628a.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+[s S47 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"181
+[u S56 . 1 `S47 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES56  1 e 1 @5 ]
+"226
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"765
+[v _CMCON CMCON `VEuc  1 e 1 @31 ]
+"905
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"967
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+[s S20 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 OSCF 1 0 :1:3 
+]
+"1105
+[s S25 . 1 `uc 1 nBO 1 0 :1:0 
+]
+[s S27 . 1 `uc 1 nBOD 1 0 :1:0 
+]
+[u S29 . 1 `S20 1 . 1 0 `S25 1 . 1 0 `S27 1 . 1 0 ]
+[v _PCONbits PCONbits `VES29  1 e 1 @142 ]
+"26 E:\Workspace\Daflan\EvenOddCounter\EvenOddCounter.X\main.c
+[v _digits digits `[10]uc  1 e 10 0 ]
+"44
+[v _currentNumber currentNumber `uc  1 e 1 0 ]
+"46
+[v _main main `(v  1 e 1 0 ]
+{
+"89
+} 0
+"114
+[v _printNumber printNumber `(v  1 e 1 0 ]
+{
+"116
+} 0
+"109
+[v _nextTriplet nextTriplet `(v  1 e 1 0 ]
+{
+"112
+} 0
+"91
+[v _nextOdd nextOdd `(v  1 e 1 0 ]
+{
+"98
+} 0
+"100
+[v _nextEven nextEven `(v  1 e 1 0 ]
+{
+"107
+} 0
+"4 D:\Microchip\xc8\v1.45\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+{
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbmod@rem rem `uc  1 a 1 6 ]
+"7
+[v ___lbmod@counter counter `uc  1 a 1 5 ]
+"4
+[v ___lbmod@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbmod@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbmod@dividend dividend `uc  1 a 1 4 ]
+"18
+} 0
